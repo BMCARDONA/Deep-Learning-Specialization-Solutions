@@ -15,9 +15,9 @@ def basic_sigmoid(x):
     """
     # (≈ 1 line of code)
     # s = 
-    
+
     # YOUR CODE STARTS HERE
-    s = 1 / (1 + np.exp(-x))
+    s = 1 / (1 + math.exp(-x))
     # YOUR CODE ENDS HERE
     
     return s
